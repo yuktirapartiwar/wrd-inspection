@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Wrd Inspection</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="designation">
+        <item>Executive Engineer</item>
+        <item>Superitendent Engineer</item>
+        <item>Chief Engineer</item>
+    </string-array>
+    <string name="NameTxt">Enter your name</string>
+    <string name="Ongoing">Ongoing</string>
+    <string name="Completed">Completed</string>
+    <string name="features">Features</string>
+    <string name="quality_of_work">Quality of work</string>
+    <string name="time_to_complete">Time to complete</string>
+    <string name="submit">Submit</string>
+    <string name="micro">micro</string>
+    <string name="sprinkler">Sprinkler</string>
+    <string name="scada">Scada</string>
+    <string name="open_channel">Open Channel</string>
+    <string name="wrd_inspection">WRD INSPECTION</string>
+    <string name="thank_you">Thank You!!</string>
+</resources>

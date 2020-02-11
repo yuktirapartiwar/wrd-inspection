@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenu">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/background">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/water_resources_department"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/madhya_pradesh"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textAlignment="viewEnd"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:gravity="end" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/minor_project"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:background="@color/white"
+            android:id="@+id/minorBtn"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/major_project"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:background="@color/white"
+            android:id="@+id/majorBtn"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/report_inspection"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:id="@+id/inspectionBtn"
+            android:background="@color/white"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="@string/previous_inspection_report"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:id="@+id/recordBtn"/>
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

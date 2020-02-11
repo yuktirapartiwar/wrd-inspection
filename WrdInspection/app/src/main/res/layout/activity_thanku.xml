@@ -9,15 +9,29 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@color/background">
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:text="@string/thank_you"
-            android:padding="110dp"
-            android:textSize="35dp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:textSize="30sp"
             android:id="@+id/thanku"
+            android:textColor="@color/black"
             />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background"
+            android:paddingTop="40dp"
+            android:paddingBottom="40dp"
+            android:textSize="20sp"
+            android:text="Main Menu"
+            android:id="@+id/mainmenuBtn"/>
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

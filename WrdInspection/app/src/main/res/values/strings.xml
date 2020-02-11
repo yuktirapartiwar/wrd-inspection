@@ -2,6 +2,7 @@
     <string name="app_name">Wrd Inspection</string>
     <string name="action_settings">Settings</string>
     <string-array name="designation">
+        <item>Select Designation</item>
         <item>Executive Engineer</item>
         <item>Superitendent Engineer</item>
         <item>Chief Engineer</item>
@@ -19,4 +20,19 @@
     <string name="open_channel">Open Channel</string>
     <string name="wrd_inspection">WRD INSPECTION</string>
     <string name="thank_you">Thank You!!</string>
+    <string name="date_of_inspection">Date of inspection</string>
+    <string name="dam_picture">Dam Picture</string>
+    <string name="enter_suggestion">Enter suggestion</string>
+    <string name="water_resources_department">WATER RESOURCES DEPARTMENT</string>
+    <string name="madhya_pradesh">Madhya Pradesh</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="minor_project">Minor Project</string>
+    <string name="major_project">Major Project</string>
+    <string name="report_inspection">Report Inspection</string>
+    <string name="previous_inspection_report">Previous Inspection Report</string>
 </resources>

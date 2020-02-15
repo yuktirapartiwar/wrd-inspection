@@ -31,13 +31,69 @@
             android:paddingRight="10dp"
             android:paddingLeft="10dp"
             android:gravity="end" />
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="410dp"
+                        android:layout_height="230dp"
+                        android:src="@drawable/bansagar" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bansagar_dam_sehdol_madhya_pradesh"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+            <ImageView
+                android:layout_width="410dp"
+                android:layout_height="230dp"
+                android:src="@drawable/gandhisagar"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/gandhi_sagar_dam_mandsaur_madhya_pradesh"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="410dp"
+                        android:layout_height="230dp"
+                        android:src="@drawable/madikheda"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/madikheda_dam_shivpuri_madhya_pradesh"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/minor_project"
             android:textColor="@color/black"
             android:textSize="15sp"
-            android:background="@color/white"
+            android:background="@drawable/background"
             android:id="@+id/minorBtn"
             />
         <Button
@@ -46,7 +102,8 @@
             android:text="@string/major_project"
             android:textColor="@color/black"
             android:textSize="15sp"
-            android:background="@color/white"
+            android:background="@drawable/background"
+            android:layout_marginTop="5dp"
             android:id="@+id/majorBtn"/>
         <Button
             android:layout_width="match_parent"
@@ -55,14 +112,16 @@
             android:textColor="@color/black"
             android:textSize="15sp"
             android:id="@+id/inspectionBtn"
-            android:background="@color/white"/>
+            android:layout_marginTop="5dp"
+            android:background="@drawable/background"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="15sp"
             android:text="@string/previous_inspection_report"
+            android:layout_marginTop="5dp"
             android:textColor="@color/black"
-            android:background="@color/white"
+            android:background="@drawable/background"
             android:id="@+id/recordBtn"/>
 
 

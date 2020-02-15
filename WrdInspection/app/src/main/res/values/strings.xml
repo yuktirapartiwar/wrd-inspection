@@ -35,4 +35,7 @@
     <string name="major_project">Major Project</string>
     <string name="report_inspection">Report Inspection</string>
     <string name="previous_inspection_report">Previous Inspection Report</string>
+    <string name="bansagar_dam_sehdol_madhya_pradesh">Bansagar Dam - Sehdol, Madhya Pradesh</string>
+    <string name="gandhi_sagar_dam_mandsaur_madhya_pradesh">Gandhi Sagar Dam - Mandsaur, Madhya Pradesh</string>
+    <string name="madikheda_dam_shivpuri_madhya_pradesh">Madikheda Dam - Shivpuri, Madhya Pradesh</string>
 </resources>
